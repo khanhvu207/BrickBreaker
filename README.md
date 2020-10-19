@@ -1,6 +1,6 @@
 ## Brick breaker with Rainbow ball!
 
-A simple Brick break game using Scala and Processing.
+A simple Brick Breaker game using Scala and Processing.
 
 ![demo](https://github.com/khanhvu207/BrickBreaker/blob/main/assets/demo.gif)  
 
