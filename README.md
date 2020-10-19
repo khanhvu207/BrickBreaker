@@ -8,8 +8,6 @@ A simple Brick break game using Scala and Processing.
 
 ### Run the game
 
-Install [Gradle](https://gradle.org/install/#with-a-package-manager)
-
 * On Windows, open the Terminal inside this project's folder:
 ```
 gradlew run
