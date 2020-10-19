@@ -1,0 +1,48 @@
+products:
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\BrickBreaker$.class
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\BrickBreaker.class
+   D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\GameEngine.class
+   D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\graphics\Color$.class
+   D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\graphics\Color.class
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Ball$.class
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Ball.class
+   D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Brick$.class
+   D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Brick.class
+   D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Paddle$.class
+   D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Paddle.class
+binary dependencies:
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\lib\core.jar
+   D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+   D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+   D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> D:\github\BrickBreaker\lib\core.jar
+   D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+   D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+   D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+   D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+   D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+   D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+source dependencies:
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\logic\Ball.scala
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\logic\Brick.scala
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\src\bbgame\logic\Brick.scala
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala
+external dependencies:
+class names:
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> bbgame.game.BrickBreaker
+   D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> bbgame.game.BrickBreaker$
+   D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> bbgame.game.GameEngine
+   D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> bbgame.game.graphics.Color
+   D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> bbgame.game.graphics.Color$
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> bbgame.logic.Ball
+   D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> bbgame.logic.Ball$
+   D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> bbgame.logic.Brick
+   D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> bbgame.logic.Brick$
+   D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> bbgame.logic.Paddle
+   D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> bbgame.logic.Paddle$

@@ -1,0 +1,646 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\github\BrickBreaker\build\classes\scala\main
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+11 items
+00 -> -source
+01 -> 1.8
+02 -> -target
+03 -> 1.8
+04 -> -d
+05 -> D:\github\BrickBreaker\build\classes\scala\main
+06 -> -g
+07 -> -proc:none
+08 -> -s
+09 -> D:\github\BrickBreaker\build\generated\sources\annotationProcessor\scala\main
+10 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.13.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+11 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\BrickBreaker$.class
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\BrickBreaker.class
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\GameEngine.class
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\graphics\Color$.class
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\graphics\Color.class
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Ball$.class
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Ball.class
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Brick$.class
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Brick.class
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Paddle$.class
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Paddle.class
+binary dependencies:
+14 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\lib\core.jar
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> D:\github\BrickBreaker\lib\core.jar
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+7 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\logic\Ball.scala
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\logic\Brick.scala
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\src\bbgame\logic\Brick.scala
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+1 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala
+inheritance external dependencies:
+0 items
+class names:
+11 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> bbgame.game.BrickBreaker
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> bbgame.game.BrickBreaker$
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> bbgame.game.GameEngine
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> bbgame.game.graphics.Color
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> bbgame.game.graphics.Color$
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> bbgame.logic.Ball
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> bbgame.logic.Ball$
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> bbgame.logic.Brick
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> bbgame.logic.Brick$
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> bbgame.logic.Paddle
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> bbgame.logic.Paddle$
+used names:
+413 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> &&
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> *
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> +
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> -
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> /
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> :+
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> <init>
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ==
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Any
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> AnyRef
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Array
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> B
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Ball
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BallAndBricksCollision
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BallAndPaddleCollision
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BallAndWallsCollision
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Blue
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Boolean
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Brick
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BrickBreaker
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BrickCols
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BrickHeight
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BrickRows
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> BrickWidth
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Color
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Float
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Function1
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> GameEngine
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Green
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Int
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> KeyEvent
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> List
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Nil
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Nothing
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Object
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> PApplet
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Paddle
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> PaddleHeight
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> PaddleWidth
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Predef
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Random
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Range
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Red
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> RichInt
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> String
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> U
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Unit
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> Yellow
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> awt
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> background
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitBottom
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitBottomBrick
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitLeftBrick
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitLeftWall
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitPaddleLeft
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitPaddleRight
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitRightBrick
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitRightWall
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitTopBrick
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ballHitTopWall
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> bbgame
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> blue
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> brick
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> collection
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> core
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentBall
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentBall_=
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentBricks
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentBricks_=
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentKeyPressed
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentKeyPressed_=
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentPaddle
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> currentPaddle_=
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> defaultHeight
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> defaultWidth
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> drawBall
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> drawBricks
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> drawPaddle
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ellipse
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> event
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> fill
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> flipY
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> foreach
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> frameRate
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> game
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> gameReset
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> getKeyCode
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> goLeft
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> goRight
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> graphics
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> green
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> i
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> immutable
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> initBricks
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> intWrapper
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> isAlive
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> isEmpty
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> isGameOver
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> isShowingIntro
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> isShowingIntro_=
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> j
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> java
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> key
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> keyPressed
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> logic
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> main
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> newBricksList
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> nextInt
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> noStroke
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> package
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> processing
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> radius
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> rand
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> rect
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> red
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> reset
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> resetBackground
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> scala
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> showGameOverScreen
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> showIntro
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> size
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> smooth
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> text
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> textSize
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> toFloat
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> unary_!
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> until
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> update
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> updateBall
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> updatePaddle
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> util
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> x
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> y
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> ||
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> <init>
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> GameEngine
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> Int
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> PApplet
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> String
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> Unit
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> bbgame
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> core
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> defaultHeight
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> defaultWidth
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> displayDensity
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> game
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> pixelDensity
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> processing
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> scala
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> size
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> &&
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> <init>
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> ==
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> ?0
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> A
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Any
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> AnyRef
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Black
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Blue
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Boolean
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Class
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Color
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> DarkGreen
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Float
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Gray
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Green
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Int
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Iterator
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> LawnGreen
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> LightBlue
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> ModuleSerializationProxy
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> None
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Nothing
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Object
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Option
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Orange
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Predef
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Product
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Purple
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Red
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> ScalaRunTime
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Serializable
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Some
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Statics
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> String
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> T
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> T0
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> T1
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> T2
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> T3
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> T4
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Tuple4
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> White
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> Yellow
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> _toString
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> alpha
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> apply
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> asInstanceOf
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> bbgame
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> blue
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> eq
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> finalizeHash
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> floatHash
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> game
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> graphics
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> green
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> hashCode
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> ioobe
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> mix
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> package
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> productPrefix
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> red
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> runtime
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> scala
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> typedProductIterator
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> ||
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> &&
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> *
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> +
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> -
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> /
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> <=
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> <init>
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> ==
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> >
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> >=
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> ?0
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> A
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> AbstractFunction6
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Any
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> AnyRef
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Ball
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Boolean
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Brick
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> BrickHeight
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> BrickWidth
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Class
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> GridHeight
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> GridWidth
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Int
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Iterator
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> ModuleSerializationProxy
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> None
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Nothing
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Object
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Option
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Paddle
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> PaddleWidth
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Predef
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Product
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> ScalaRunTime
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Serializable
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Some
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Statics
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> String
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T0
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T1
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T2
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T3
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T4
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T5
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> T6
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> Tuple6
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> VelocityX
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> VelocityY
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> _toString
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> asInstanceOf
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> bbgame
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> brick
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> eq
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> finalizeHash
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> hashCode
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> ioobe
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> logic
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> mix
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> package
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> paddle
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> productPrefix
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> radius
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> runtime
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> scala
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> typedProductIterator
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> unary_-
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> x
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> y
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> ||
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> &&
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> <init>
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> ==
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> ?0
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> A
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> AbstractFunction8
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Any
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> AnyRef
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Blue
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Boolean
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Brick
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> BrickHeight
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> BrickWidth
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Class
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Green
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Int
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Iterator
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> ModuleSerializationProxy
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> None
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Nothing
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Object
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Option
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Predef
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Product
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Red
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> ScalaRunTime
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Serializable
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Some
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Statics
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> String
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T0
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T1
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T2
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T3
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T4
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T5
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T6
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T7
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> T8
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> Tuple8
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> _toString
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> asInstanceOf
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> bbgame
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> eq
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> finalizeHash
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> hashCode
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> ioobe
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> isAlive
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> logic
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> mix
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> package
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> productPrefix
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> runtime
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> scala
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> typedProductIterator
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> x
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> y
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> ||
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> &&
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> +
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> -
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> <init>
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> ==
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> ?0
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> A
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> AbstractFunction6
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Any
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> AnyRef
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Boolean
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Class
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> GridHeight
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> GridWidth
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Int
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Iterator
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> KeyEvent
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Math
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> ModuleSerializationProxy
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> None
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Nothing
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Object
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Option
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Paddle
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> PaddleHeight
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> PaddleSpeed
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> PaddleWidth
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Predef
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Product
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> ScalaRunTime
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Serializable
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Some
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Statics
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> String
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T0
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T1
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T2
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T3
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T4
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T5
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> T6
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> Tuple6
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> _toString
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> asInstanceOf
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> awt
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> bbgame
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> eq
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> event
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> finalizeHash
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> hashCode
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> ioobe
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> java
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> keyCode
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> lang
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> logic
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> max
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> min
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> mix
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> package
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> productPrefix
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> runtime
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> scala
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> typedProductIterator
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> x
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> y
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> ||
+product stamps:
+11 items
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\BrickBreaker$.class -> lastModified(1603124390263)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\BrickBreaker.class -> lastModified(1603124390263)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\GameEngine.class -> lastModified(1603124390266)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\graphics\Color$.class -> lastModified(1603124390289)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\game\graphics\Color.class -> lastModified(1603124390287)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Ball$.class -> lastModified(1603124390307)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Ball.class -> lastModified(1603124390306)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Brick$.class -> lastModified(1603124390319)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Brick.class -> lastModified(1603124390318)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Paddle$.class -> lastModified(1603124390329)
+D:\github\BrickBreaker\build\classes\scala\main\bbgame\logic\Paddle.class -> lastModified(1603124390328)
+source stamps:
+6 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> hash(7f514c217c558fdc20e2f5c1fc130e69b26f4fcf)
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> hash(6af5964f36c3d02b790c0bbe169cc7edabd42b12)
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> hash(726d38c8871b9289a956d222ebda0577a4032373)
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> hash(f2c3efd477ebe7c2bbb2060ac1cace3f16de505e)
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> hash(d772e4ab18e2aea10732c92e58c573f9dc3fc310)
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> hash(7dc84fe64771e28061fa4950d7240af52dedcdb9)
+binary stamps:
+3 items
+C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar -> lastModified(1595924738000)
+C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar -> lastModified(1598891041682)
+D:\github\BrickBreaker\lib\core.jar -> lastModified(1599145378000)
+class names:
+3 items
+C:\Program Files (x86)\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre\lib\rt.jar -> java.io.Serializable
+C:\Users\khanh\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.1\1418c956704990564fb9dfac5960647ca54b5a91\scala-library-2.13.1.jar -> scala.runtime.AbstractFunction6
+D:\github\BrickBreaker\lib\core.jar -> processing.core.PApplet
+internal apis:
+6 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwi3IcRAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAFqc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZs6f0XQABmxpZ2h0c3NxAH4ADAPjAZt0AAVhbHBoYXNxAH4ADA68ZNJ0AAdzY3JlZW5Zc3EAfgAM2qmkW3QADnBhcnNlSlNPTkFycmF5c3EAfgAMOMoQZXQABm5vdGlmeXNxAH4ADJLyUXB0AAxwZXJsaW5fVFdPUElzcQB+AAwBUEFedAAGcmVkcmF3c3EAfgAMUl9RcnQACmlzR2FtZU92ZXJzcQB+AAwp1Bj8dAAMc2VsZWN0T3V0cHV0c3EAfgAMJfrFXnQAEGxvYWRJbWFnZUZvcm1hdHNzcQB+AAz8U+rwdAASc2tldGNoT3V0cHV0U3RyZWFtc3EAfgAMUx7JxnQABm1ldGhvZHNxAH4ADM8j1DZ0AAZyYW5kb21zcQB+AAwyA133dAALY3JlYXRlSW1hZ2VzcQB+AAy/MN2rdAAFY291bnRzcQB+AAycaM7gdAAKbW91c2VXaGVlbHNxAH4ADN+CcpJ0AA9wcmludFN0YWNrVHJhY2VzcQB+AAxEcgTPdAAFZGVsYXlzcQB+AAyxhCF5dAAFcG9pbnRzcQB+AAyMgGA6dAAIYmVnaW5SYXdzcQB+AAyNq/e8dAAGcmVzdW1lc3EAfgAM7VtnM3QABm5vTG9vcHNxAH4ADINSLJJ0AAR3YWl0c3EAfgAMS9EkaXQADmNyZWF0ZUlucHV0UmF3c3EAfgAM+9QI1nQABGxvb3BzcQB+AAzmIT3gdAAJZW5kQ2FtZXJhc3EAfgAMTNMW2XQABnZlcnRleHNxAH4ADAKkNKd0AAplbmRDb250b3Vyc3EAfgAM323+8XQAC3RleHREZXNjZW50c3EAfgAM6x3Lm3QADHNlbGVjdEZvbGRlcnNxAH4ADKcjtOh0AAtjcmVhdGVTaGFwZXNxAH4ADFy9fTh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGmQz1HQABG1hc2tzcQB+AAzJXRhLdAAKY3JlYXRlRm9udHNxAH4ADLRfwrJ0AA5yZWdpc3Rlck1ldGhvZHNxAH4ADEsy5f90AAxwZXJsaW5SYW5kb21zcQB+AAxSt2MwdAAEc2l6ZXNxAH4ADLak7Xd0AARyZWN0c3EAfgAMMIiP+HQABm5vQ2xpcHNxAH4ADCeHqtd0AAlpbWFnZU1vZGVzcQB+AAzhgBwfdAAEdGludHNxAH4ADFB7IUh0AAdzdXJmYWNlc3EAfgAM4gOQqHQABWN1cnZlc3EAfgAM1ZmOC3QACWxpc3RGaWxlc3NxAH4ADDavEH90AAlsb2FkSW1hZ2VzcQB+AAwBkAEEdAAGY2lyY2xlc3EAfgAMlzQlunQABnNtb290aHNxAH4ADHaE49B0AAtzaG93U3VyZmFjZXNxAH4ADF9rA+Z0AAttb3VzZUV4aXRlZHNxAH4ADBD1m6V0AAlibGVuZE1vZGVzcQB+AAx9B+kjdAAGbW9kZWxYc3EAfgAM0GAnInQACGxvYWRGb250c3EAfgAMJzXeqnQACGRhdGFQYXRoc3EAfgAMKOu32XQAC3RleHR1cmVXcmFwc3EAfgAM0uGVanQAA3BvcHNxAH4ADIWzCjF0AAlpc0xvb3BpbmdzcQB+AAxe/bKldAAKY3VydmVQb2ludHNxAH4ADIxd3/t0AAdyb3RhdGVZc3EAfgAMxuXIG3QABW9ydGhvc3EAfgAM8a/wFXQABmVxdWFsc3NxAH4ADJSLZ3Z0AApoYW5kbGVEcmF3c3EAfgAMxX0LKHQAB21ldGhvZHNzcQB+AAwCqlh5dAAVY3JlYXRlUHJpbWFyeUdyYXBoaWNzc3EAfgAMU7YK1XQABGJsdWVzcQB+AAxLWWjidAAFbm9pc2VzcQB+AAyYBIpadAAFc3R5bGVzcQB+AAwrqBCQdAAFaW1hZ2VzcQB+AAxJDtn4dAAEbGluZXNxAH4ADH/cQTd0AApiYWNrZ3JvdW5kc3EAfgAM9PV9p3QACmluc2lkZURyYXdzcQB+AAyBHFHIdAAIdGV4dEZvbnRzcQB+AAydatWGdAAQa2V5UmVwZWF0RW5hYmxlZHNxAH4ADHIcFn50AAVzY2FsZXNxAH4ADIOCbmV0AAxjcmVhdGVXcml0ZXJzcQB+AAx/AJSPdAAFY2xlYXJzcQB+AAxwXs98dAAKZ2V0U3VyZmFjZXNxAH4ADIqtmf10AAZzdHJva2VzcQB+AAyB+35cdAAGbm9ybWFsc3EAfgAMkgYjsXQADGJlemllclZlcnRleHNxAH4ADB39xGt0AAZub0ZpbGxzcQB+AAw23faPdAAPcHJpbnRQcm9qZWN0aW9uc3EAfgAMcFrdInQACGtleVR5cGVkc3EAfgAMvxydZ3QAC2N1cnZlRGV0YWlsc3EAfgAMKDPw8nQADGFzSW5zdGFuY2VPZnNxAH4ADEjFGD90AA5zYXZlSlNPTk9iamVjdHNxAH4ADFtiZUF0AAlmcmFtZVJhdGVzcQB+AAwpoZX1dAAKbW91c2VFdmVudHNxAH4ADFtfStl0AAtwcmVzc2VkS2V5c3NxAH4ADNm8n8h0AAdwcmVzZW50c3EAfgAMtrZdG3QACWdhbWVSZXNldHNxAH4ADOS3fYR0AAhmaW5pc2hlZHNxAH4ADEpUEyJ0AAl0ZXh0V2lkdGhzcQB+AAyrYnkXdAAKZnVsbFNjcmVlbnNxAH4ADFtLGDZ0AAhub0xpZ2h0c3NxAH4ADJP8KXl0AAtzYXZlU3RyaW5nc3NxAH4ADFATxpd0AAZzcGhlcmVzcQB+AAwzQJAQdAADc2V0c3EAfgAM0SKEhHQACnNhdHVyYXRpb25zcQB+AAzHegG0dAAEcHVzaHNxAH4ADEESFsZ0AAxzeW5jaHJvbml6ZWRzcQB+AAwRIcD5dAAHc2NyZWVuWnNxAH4ADF1tyiR0AApiZWdpblNoYXBlc3EAfgAMLhIL9XQABmNhbWVyYXNxAH4ADIPBh590AAp0ZXh0QXNjZW50c3EAfgAMGa9l73QACXN0cm9rZUNhcHNxAH4ADEYWxql0AAt0ZXh0TGVhZGluZ3NxAH4ADN7v5vV0AAxtb3VzZUNsaWNrZWRzcQB+AAyY2n+mdAALd2luZG93Q29sb3JzcQB+AAyIKIo+dAAJcnVuU2tldGNoc3EAfgAMwIPbenQACnN0cm9rZUpvaW5zcQB+AAwhXIHzdAAGbW9kZWxac3EAfgAMhWh1iHQACWxpc3RQYXRoc3NxAH4ADAhZnhF0AAtsb2FkSW1hZ2VJT3NxAH4ADHoUJqx0ABJmcmFtZVJhdGVMYXN0TmFub3NzcQB+AAwiKCFWdAAHcm90YXRlWnNxAH4ADLPSe7d0AA0kaXNJbnN0YW5jZU9mc3EAfgAMJ3G7/HQADXNrZXRjaERpc3BsYXlzcQB+AAyzdmJqdAAQZGlyZWN0aW9uYWxMaWdodHNxAH4ADG9n2rV0AAVwYXVzZXNxAH4ADDRc3ER0AA1kZXF1ZXVlRXZlbnRzc3EAfgAMi59co3QADW1vdXNlUmVsZWFzZWRzcQB+AAwgrTDZdAAQc3VnZ2VzdGVkRGVuc2l0eXNxAH4ADHBy6qd0AAlmb2N1c0xvc3RzcQB+AAyLOUpndAAMY3JlYXRlT3V0cHV0c3EAfgAMssebfnQABmhlaWdodHNxAH4ADCf893B0AApmcmFtZU1vdmVkc3EAfgAMo/J9WHQADGRlZmF1bHRXaWR0aHNxAH4ADJmuKEh0AAhzYXZlUGF0aHNxAH4ADLyrh7d0AAtjcmVhdGVJbnB1dHNxAH4ADKqX+ah0AAdmb2N1c2Vkc3EAfgAMdVoQQXQADGxvYWRJbWFnZVRHQXNxAH4ADDH0pnF0AAxtYWtlR3JhcGhpY3NzcQB+AAzVUv/wdAAMdXBkYXRlUGl4ZWxzc3EAfgAMkbVddnQABHRleHRzcQB+AAz+trEudAAOY3JlYXRlR3JhcGhpY3NzcQB+AAzVpBl6dAAMb3V0cHV0U3RyZWFtc3EAfgAMyTVKonQADGxpZ2h0RmFsbG9mZnNxAH4ADC9NJbl0AApleGl0QWN0dWFsc3EAfgAMQ5nX0XQADmxvYWRKU09OT2JqZWN0c3EAfgAMxRK2WnQACWZpbmRJbmRleHNxAH4ADDsaQl90ABFza2V0Y2hXaW5kb3dDb2xvcnNxAH4ADHIIsqF0AAtlbGxpcHNlTW9kZXNxAH4ADHmx9HF0AANodWVzcQB+AAzu5zQCdAAEbWFpbnNxAH4ADB4RjQB0AAVjb2xvcnNxAH4ADAYeWnV0AA1saWdodFNwZWN1bGFyc3EAfgAMbzMh6HQAC2F0dHJpYkNvbG9yc3EAfgAMLFq593QACHRleHRTaXplc3EAfgAMHYpDhXQACGJlZ2luUEdMc3EAfgAMKeT063QABHN0b3BzcQB+AAzWvgQFdAAGY3Vyc29yc3EAfgAM8DXiyXQACHRyaWFuZ2xlc3EAfgAMdQdXsHQADHN0YXJ0U3VyZmFjZXNxAH4ADJ5UUCl0AAptb3VzZU1vdmVkc3EAfgAMF4d2GXQACXRleHRBbGlnbnNxAH4ADIgbjT50AAlub3RpZnlBbGxzcQB+AAxdeOqmdAAJZW5kUmVjb3Jkc3EAfgAM2l+8fHQABnNxdWFyZXNxAH4ADAPDb2p0AAVmcmFtZXNxAH4ADLKLmPV0AAlzaGFwZU1vZGVzcQB+AAxVnS7KdAAGbW9kZWxZc3EAfgAMWi1UJHQADmluc2lkZVNldHRpbmdzc3EAfgAMvjj/zXQABWdyZWVuc3EAfgAMWrXQ9HQABmVuZFBHTHNxAH4ADFkigDV0AAlwb3N0RXZlbnRzcQB+AAzp2j0gdAANZGVmYXVsdEhlaWdodHNxAH4ADOHiWlh0AANrZXlzcQB+AAzKkQtcdAAEcXVhZHNxAH4ADKtlEZV0AAxpc0luc3RhbmNlT2ZzcQB+AAz5mXaodAAIZGF0YUZpbGVzcQB+AAwWRt6RdAAQc2tldGNoT3V0cHV0UGF0aHNxAH4ADOJAyBN0ABB1bnJlZ2lzdGVyTWV0aG9kc3EAfgAMfQXn1XQADGRpc3BsYXlXaWR0aHNxAH4ADPIiBzV0AAZmaWx0ZXJzcQB+AAyyO8FEdAAHZW1vdXNlWXNxAH4ADF/UN0R0AAtwcmludE1hdHJpeHNxAH4ADI3Vvtl0AAhub1Ntb290aHNxAH4ADEWicc90AAhrZXlFdmVudHNxAH4ADDMHuM50AAZyb3RhdGVzcQB+AAzXdKEIdAALbm9pc2VEZXRhaWxzcQB+AAz1ZHa8dAADYXJjc3EAfgAMyM1WlXQACHBvcFN0eWxlc3EAfgAMp56hT3QAC2xvYWRTdHJpbmdzc3EAfgAM1r+YHnQACXBvcE1hdHJpeHNxAH4ADPr5Sy50AAxtaWxsaXNPZmZzZXRzcQB+AAwlk6iedAAGbW91c2VYc3EAfgAMzipRN3QACWVtcHR5QXJnc3NxAH4ADFNZYit0AAxhbWJpZW50TGlnaHRzcQB+AAyX3hK2dAAKcGl4ZWxXaWR0aHNxAH4ADOlUyth0AAxza2V0Y2hTbW9vdGhzcQB+AAxNZHxAdAAGbm9UaW50c3EAfgAMMVMTA3QAEVJlZ2lzdGVyZWRNZXRob2Rzc3EAfgAMQh8AxnQACmZyYW1lQ291bnRzcQB+AAw41GyOdAAEZHJhd3NxAH4ADNxCrwl0AANkaWVzcQB+AAwVa0cLdAAGdGhyZWFkc3EAfgAM3NorjnQABjxpbml0PnNxAH4ADPa5ZDJ0AApyYW5kb21TZWVkc3EAfgAM2LIVMnQADGNyZWF0ZVJlYWRlcnNxAH4ADCE/Xyp0AAtwZXJzcGVjdGl2ZXNxAH4ADMqNWCp0AApwb2ludExpZ2h0c3EAfgAMYpEO7XQADnJhbmRvbUdhdXNzaWFuc3EAfgAMwC6b8XQADnBlcmxpbl9vY3RhdmVzc3EAfgAMRqsRsnQADG1vdXNlUHJlc3NlZHNxAH4ADAUEIrZ0AAxiZXppZXJEZXRhaWxzcQB+AAzUI8BldAAKcHVzaE1hdHJpeHNxAH4ADFpvf3V0AAhleHRlcm5hbHNxAH4ADBm8h0h0AAtrZXlSZWxlYXNlZHNxAH4ADBteGAB0AAtwaXhlbEhlaWdodHNxAH4ADNuHln10AAxCcmlja0JyZWFrZXJzcQB+AAxfWtosdAAIc3BlY3VsYXJzcQB+AAxH/QeIdAAPcXVhZHJhdGljVmVydGV4c3EAfgAMCBMAunQABnJlbW92ZXNxAH4ADE0X1250AAtza2V0Y2hXaWR0aHNxAH4ADDMo4pR0AAZwZXJsaW5zcQB+AAxD5Zs1dAALYmVnaW5DYW1lcmFzcQB+AAyNxk2DdAAIc2F2ZUZpbGVzcQB+AAwa9yGddAAKc2F2ZVN0cmVhbXNxAH4ADGgpKSl0AAdkbW91c2VZc3EAfgAMnbXgd3QACG5vQ3Vyc29yc3EAfgAMQx5sUHQAAWdzcQB+AAxrLZCMdAAIZW1pc3NpdmVzcQB+AAxb4JawdAAMY3VydmVUYW5nZW50c3EAfgAMQJJYhXQAC3NlbGVjdElucHV0c3EAfgAMF7kVlnQACXNhdmVCeXRlc3NxAH4ADL3umbp0AAxtb3VzZUVudGVyZWRzcQB+AAxopkqPdAANZGlzcGxheUhlaWdodHNxAH4ADNFOXNF0AAZtaWxsaXNzcQB+AAxhzezRdAAJZ2V0TWF0cml4c3EAfgAMQvVr/3QAAj09c3EAfgAMkNcUsXQABGZpbGxzcQB+AAxBCY/jdAAKb3V0cHV0UGF0aHNxAH4ADP0s0Md0AAdlbW91c2VYc3EAfgAM7mPGE3QAB2Rpc3Bvc2VzcQB+AAxETwl3dAAJbm9pc2VTZWVkc3EAfgAMJv8FhXQABnRoaXMkMHNxAH4ADN57Fzl0AAVjbG9uZXNxAH4ADNEcJct0AAtyZXNldFNoYWRlcnNxAH4ADKK4MPl0ABJza2V0Y2hQaXhlbERlbnNpdHlzcQB+AAxk0lIldAAHa2V5Q29kZXNxAH4ADELvkwJ0AAdwbW91c2VYc3EAfgAMX4uSbXQAC2N1cnZlVmVydGV4c3EAfgAMELY5dXQAEHNrZXRjaEZ1bGxTY3JlZW5zcQB+AAzPlOzYdAAEbGlua3NxAH4ADK1XrRp0AAtnZXRHcmFwaGljc3NxAH4ADEnkwJp0AAxzdHJva2VXZWlnaHRzcQB+AAwl0GTCdAAJc2V0TWF0cml4c3EAfgAM5Ia6XnQADmludGVybmFsUmFuZG9tc3EAfgAMUsGlC3QACWxvYWRUYWJsZXNxAH4ADOz3pol0AAtyZXNldE1hdHJpeHNxAH4ADPnqRkp0AAxiZWdpbkNvbnRvdXJzcQB+AAw6g7AFdAAJdHJhbnNsYXRlc3EAfgAMInyeuXQADGZyYW1lUmVzaXplZHNxAH4ADP28V2p0AAxza2V0Y2hIZWlnaHRzcQB+AAwLQMc8dAAKZXhpdENhbGxlZHNxAH4ADMIoH6h0AA5za2V0Y2hSZW5kZXJlcnNxAH4ADLYdXVB0AAxtb3VzZURyYWdnZWRzcQB+AAxVDTZidAAEaGludHNxAH4ADCNw+Wp0AAlsb2FkQnl0ZXNzcQB+AAxRu7ELdAALb3JpZW50YXRpb25zcQB+AAzUl5SKdAALaW5pdFN1cmZhY2VzcQB+AAxpr/QAdAALcmVnaXN0ZXJNYXBzcQB+AAxS5btgdAALdGV4dHVyZU1vZGVzcQB+AAyFgyYzdAAEZXhpdHNxAH4ADKCD41t0AA1oYW5kbGVNZXRob2Rzc3EAfgAMWTWmRHQAC2FwcGx5TWF0cml4c3EAfgAMsrJ8XHQACHBhcnNlWE1Mc3EAfgAMJ1qVhnQACW5vVGV4dHVyZXNxAH4ADEDlnd10AARjb3B5c3EAfgAMjEVNuXQADHBpeGVsRGVuc2l0eXNxAH4ADFk7Hxx0AApicmlnaHRuZXNzc3EAfgAMypNFoXQABm1vdXNlWXNxAH4ADGiPjTV0AAVmbHVzaHNxAH4ADI876Zx0AAZlbmRSYXdzcQB+AAzx8L1ldAAIdG9TdHJpbmdzcQB+AAwpgOFEdAAOYXR0cmliUG9zaXRpb25zcQB+AAx9HpMfdAAEYXJnc3NxAH4ADFkc0N90AAdhbWJpZW50c3EAfgAMZLwzzXQACGVuZFNoYXBlc3EAfgAMga6UenQABnNoZWFyWXNxAH4ADMSRNeV0AANib3hzcQB+AAzzvlu+dAAFc2hhcGVzcQB+AAz3hyw7dAAGc2hhZGVyc3EAfgAM73xxPnQAAiE9c3EAfgAM4XLijHQACmxvYWRQaXhlbHNzcQB+AAwnKDIOdAAKZmlyc3RNb3VzZXNxAH4ADImGVeh0AAZiZXppZXJzcQB+AAwnCcWQdAALcHJpbnRDYW1lcmFzcQB+AAy/4C+AdAAHcm90YXRlWHNxAH4ADO728FV0AANnZXRzcQB+AAwS7zJfdAAGcGl4ZWxzc3EAfgAMF0bm4XQAEnBlcmxpbl9hbXBfZmFsbG9mZnNxAH4ADIXoMEh0AAdmcnVzdHVtc3EAfgAM3gC+rHQABGVkZ2VzcQB+AAx5INPRdAAIZ2V0Q2xhc3NzcQB+AAy9GbpidAALZm9jdXNHYWluZWRzcQB+AAxYca1KdAAHb2JqZWN0c3NxAH4ADAEcUlp0AAtpbnNlcnRGcmFtZXNxAH4ADDTI8O10AAhyZW5kZXJlcnNxAH4ADDLRIiN0AAh0ZXh0TW9kZXNxAH4ADMhoRAJ0AARjbGlwc3EAfgAM2Ozj7nQADHNwaGVyZURldGFpbHNxAH4ADH764b10AA5kaXNwbGF5RGV2aWNlc3NxAH4ADKtQedd0AApza2V0Y2hGaWxlc3EAfgAM1j8sg3QACmV2ZW50UXVldWVzcQB+AAxqMHm8dAAPcGVybGluX2Nvc1RhYmxlc3EAfgAMAnMrT3QABXN0YXJ0c3EAfgAMUAhTwHQAB2xvYWRYTUxzcQB+AAwvSIHFdAAHZG1vdXNlWHNxAH4ADHPca4B0AARzYXZlc3EAfgAMinGwYnQACXNhdmVGcmFtZXNxAH4ADMJinNB0AAxyZXF1ZXN0SW1hZ2VzcQB+AAzqq/25dAACbmVzcQB+AAyHmbD8dAAOZGlzcGxheURlbnNpdHlzcQB+AAzApQ6MdAAOY3VydmVUaWdodG5lc3NzcQB+AAzhtyH6dAAJcGVybGluX1BJc3EAfgAMUKGVIHQAC2JlemllclBvaW50c3EAfgAMYL5JZ3QACXNwb3RMaWdodHNxAH4ADMWTHfd0AANhZGRzcQB+AAxpKLfJdAAHc2NyZWVuWHNxAH4ADIaTz0J0AAV3aWR0aHNxAH4ADHN+abp0AApza2V0Y2hQYXRoc3EAfgAMaueGU3QAD3BhcnNlSlNPTk9iamVjdHNxAH4ADHJY86p0AA1sb2FkSlNPTkFycmF5c3EAfgAME3PTwHQACG5vU3Ryb2tlc3EAfgAMg1EZZHQAB2xvb3BpbmdzcQB+AAyUkymddAAJcHVzaFN0eWxlc3EAfgAMlKuc7nQACmtleVByZXNzZWRzcQB+AAycJ/VCdAAKbG9hZFNoYWRlcnNxAH4ADI1dbml0AAdwbW91c2VZc3EAfgAM4ddx4HQAB3RleHR1cmVzcQB+AAy+ngHldAAGYXR0cmlic3EAfgAMZIL43nQACHJlY3RNb2Rlc3EAfgAMos2odXQACXNoaW5pbmVzc3NxAH4ADCeXWut0AAJlcXNxAH4ADB8fA9p0AA1iZXppZXJUYW5nZW50c3EAfgAMflOwWHQACWxvYWRTaGFwZXNxAH4ADM3KUex0AAhzZXR0aW5nc3NxAH4ADLYPCy10ABByZXF1ZXN0SW1hZ2VQb29sc3EAfgAMAMGthXQAC2JlZ2luUmVjb3Jkc3EAfgAM3qQy73QAB2VsbGlwc2VzcQB+AAwS2BpHdAAQaGFuZGxlTW91c2VFdmVudHNxAH4ADCXo8SV0AAttb3VzZUJ1dHRvbnNxAH4ADHmmwGp0AAlsZXJwQ29sb3JzcQB+AAwvUskqdAAJc2F2ZVRhYmxlc3EAfgAMFsp8h3QABXNldHVwc3EAfgAMEVUe2XQAA3JlZHNxAH4ADP2Nu1p0AAIjI3NxAH4ADDblHrJ0AAVibGVuZHNxAH4ADETsybF0AAxhdHRyaWJOb3JtYWxzcQB+AAwutkGLdAAIZmluYWxpemVzcQB+AAzfbZECdAANc2F2ZUpTT05BcnJheXNxAH4ADIPLbbx0AAdzZXRTaXplc3EAfgAMOpeYK3QACGhhc2hDb2Rlc3EAfgAMI7pygHQACHJlY29yZGVyc3EAfgAMIgwhHHQAB2Rpc3BsYXlzcQB+AAx3mHRfdAAHc2F2ZVhNTHNxAH4ADNSIZqh0AAZoYW5kbGVzcQB+AAxhPp32dAAOaGFuZGxlS2V5RXZlbnRzcQB+AAzmRkepdAAGc2hlYXJYc3EAfgAMq2KVgXQACWNvbG9yTW9kZXNxAH4ADAxVWsZ0AA5oYW5kbGVTZXR0aW5nc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+Aut4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABhiYmdhbWUuZ2FtZS5Ccmlja0JyZWFrZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0AA9zY2FsYS50cmFuc2llbnR0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4DBXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgLrTAAJaW5oZXJpdGVkcQB+AutMAAdwYXJlbnRzcQB+Aut4cQB+AwpzcQB+AwV1cQB+AuYAAAAAc3EAfgMFdXEAfgLmAAAAAHNxAH4DBXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAFc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4DCXQACkdhbWVFbmdpbmVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AwlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABmJiZ2FtZXNxAH4DInQABGdhbWVzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4DI3NxAH4DFnQAB1BBcHBsZXRzcQB+AxpzcQB+Ax11cQB+AyAAAAADc3EAfgMidAAKcHJvY2Vzc2luZ3NxAH4DInQABGNvcmVxAH4DKXNxAH4DFnQAClBDb25zdGFudHNxAH4DLHNxAH4DFnQABk9iamVjdHNxAH4DGnNxAH4DHXVxAH4DIAAAAANzcQB+AyJ0AARqYXZhc3EAfgMidAAEbGFuZ3EAfgMpc3EAfgMWdAADQW55c3EAfgMac3EAfgMddXEAfgMgAAAAAnNxAH4DInQABXNjYWxhcQB+AylzcQB+AuhxAH4C9XVxAH4C9gAAAABzcQB+AvgAdAAYYmJnYW1lLmdhbWUuQnJpY2tCcmVha2VydXEAfgL7AAAAAH5xAH4C/XQABk1vZHVsZXVxAH4DAQAAAAF0AAxzY2FsYS5uYXRpdmVzcQB+AwVxAH4DC3NxAH4DBXNxAH4DDXNxAH4DBXVxAH4C5gAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4C7HEAfgL1dXEAfgL2AAAAAHNxAH4C+ABxAH4BLXVxAH4C+wAAAABzcQB+AxZ0AARVbml0c3EAfgMac3EAfgMddXEAfgMgAAAAAnNxAH4DInEAfgNEcQB+Ayl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgNUeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgL+dAAFUGxhaW5xAH4CN3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4DF1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4DCXNxAH4DFnQABUFycmF5cQB+A1x1cQB+AxQAAAABc3EAfgMWdAAGU3RyaW5nc3EAfgMac3EAfgMddXEAfgMgAAAAA3NxAH4DInEAfgM7c3EAfgMicQB+Az1xAH4DKXNxAH4DBXVxAH4C5gAAAABzcQB+AwV1cQB+AxQAAAACc3EAfgMWcQB+AzZxAH4DdXNxAH4DFnEAfgM/cQB+A1x1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZiYmdhbWVzcQB+A4J0AAtiYmdhbWUuZ2FtZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGo3Ch1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAvRDpcZ2l0aHViXEJyaWNrQnJlYWtlclxidWlsZFxjbGFzc2VzXHNjYWxhXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR/UUwhfFWP3CDi9cH8Ew5psm9Pzw==
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwTaYqNwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAFnc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwIZ0AgHQABmxpZ2h0c3NxAH4ADJlkP1x0AAVhbHBoYXNxAH4ADCBfi9B0AAdzY3JlZW5Zc3EAfgAMkbUNmXQADnBhcnNlSlNPTkFycmF5c3EAfgAMMU20lXQABm5vdGlmeXNxAH4ADBaHLod0AAxwZXJsaW5fVFdPUElzcQB+AAyrmkGUdAAGcmVkcmF3c3EAfgAMpl8Qv3QADHNlbGVjdE91dHB1dHNxAH4ADCseVyt0ABBsb2FkSW1hZ2VGb3JtYXRzc3EAfgAMqkqRAXQAEnNrZXRjaE91dHB1dFN0cmVhbXNxAH4ADHiewQN0AAZtZXRob2RzcQB+AAwqrEZUdAAGcmFuZG9tc3EAfgAMa2iJ0HQAC2NyZWF0ZUltYWdlc3EAfgAMnO6PbXQABWNvdW50c3EAfgAMbgzdvHQACkdhbWVFbmdpbmVzcQB+AAysWfKTdAAKbW91c2VXaGVlbHNxAH4ADLiql190AA9wcmludFN0YWNrVHJhY2VzcQB+AAzvlJXSdAAFZGVsYXlzcQB+AAwsYBnZdAAFcG9pbnRzcQB+AAxPOpy2dAAIYmVnaW5SYXdzcQB+AAzpEqlsdAAGcmVzdW1lc3EAfgAMd5uQYHQABm5vTG9vcHNxAH4ADE2xdSZ0AAR3YWl0c3EAfgAM5/DCNnQADmNyZWF0ZUlucHV0UmF3c3EAfgAMIaGyIXQABGxvb3BzcQB+AAyx/TCxdAAJZW5kQ2FtZXJhc3EAfgAMy5kQL3QABnZlcnRleHNxAH4ADMNfe9x0AAplbmRDb250b3Vyc3EAfgAMDr5XpnQAC3RleHREZXNjZW50c3EAfgAMbCoa2XQADHNlbGVjdEZvbGRlcnNxAH4ADO+2XUR0AAtjcmVhdGVTaGFwZXNxAH4ADDlZjY10AA0kYXNJbnN0YW5jZU9mc3EAfgAMPY5nonQABG1hc2tzcQB+AAwp5WBmdAAKY3JlYXRlRm9udHNxAH4ADLVr7Ot0AA5yZWdpc3Rlck1ldGhvZHNxAH4ADOKjxyN0AAxwZXJsaW5SYW5kb21zcQB+AAy+QNTbdAAEc2l6ZXNxAH4ADEPCGQB0AARyZWN0c3EAfgAMSz+T/nQABm5vQ2xpcHNxAH4ADEZAfst0AAlpbWFnZU1vZGVzcQB+AAxysFEQdAAEdGludHNxAH4ADEvjL0h0AAdzdXJmYWNlc3EAfgAMHgjIFnQABWN1cnZlc3EAfgAM7qyxWXQACWxpc3RGaWxlc3NxAH4ADADqAzh0AAlsb2FkSW1hZ2VzcQB+AAyk1rSndAAGY2lyY2xlc3EAfgAM0IK3wHQABnNtb290aHNxAH4ADOE3bV50AAtzaG93U3VyZmFjZXNxAH4ADHSA2dZ0AAttb3VzZUV4aXRlZHNxAH4ADNAPL450AAlibGVuZE1vZGVzcQB+AAxecQAodAAGbW9kZWxYc3EAfgAMgTBrHnQACGxvYWRGb250c3EAfgAMmDM1onQACGRhdGFQYXRoc3EAfgAM3RUF13QAC3RleHR1cmVXcmFwc3EAfgAMG5HSZXQAA3BvcHNxAH4ADLjQ7tF0AAlpc0xvb3BpbmdzcQB+AAwXZfH3dAAKY3VydmVQb2ludHNxAH4ADKvryi90AAdyb3RhdGVZc3EAfgAMhARZ/XQABW9ydGhvc3EAfgAMob+QhXQABmVxdWFsc3NxAH4ADMn3Mu10AApoYW5kbGVEcmF3c3EAfgAMaIF6lXQAB21ldGhvZHNzcQB+AAy4WygEdAAVY3JlYXRlUHJpbWFyeUdyYXBoaWNzc3EAfgAM5i0wTnQABGJsdWVzcQB+AAy8LAxwdAAFbm9pc2VzcQB+AAzU+qtrdAAFc3R5bGVzcQB+AAxUwVK8dAAFaW1hZ2VzcQB+AAzRqjMVdAAEbGluZXNxAH4ADK3z9OJ0AApiYWNrZ3JvdW5kc3EAfgAMZx180XQACmluc2lkZURyYXdzcQB+AAx/WrntdAAIdGV4dEZvbnRzcQB+AAzAyCnTdAAQa2V5UmVwZWF0RW5hYmxlZHNxAH4ADFKs90V0AAVzY2FsZXNxAH4ADNGQhul0AAxjcmVhdGVXcml0ZXJzcQB+AAyuPzlvdAAFY2xlYXJzcQB+AAzeyt10dAAKZ2V0U3VyZmFjZXNxAH4ADLVqAbh0AAZzdHJva2VzcQB+AAzXyZeudAAGbm9ybWFsc3EAfgAMl3x/bXQADGJlemllclZlcnRleHNxAH4ADB6ZLat0AAZub0ZpbGxzcQB+AAz/omJZdAAPcHJpbnRQcm9qZWN0aW9uc3EAfgAMBiEEOnQACGtleVR5cGVkc3EAfgAM8bSolHQAC2N1cnZlRGV0YWlsc3EAfgAMeM8l43QADGFzSW5zdGFuY2VPZnNxAH4ADFwelWp0AA5zYXZlSlNPTk9iamVjdHNxAH4ADBYwijl0AAlmcmFtZVJhdGVzcQB+AAzHyNLDdAAKbW91c2VFdmVudHNxAH4ADOilhW50AAtwcmVzc2VkS2V5c3NxAH4ADOl1XmJ0AAdwcmVzZW50c3EAfgAMBvsUVnQACGZpbmlzaGVkc3EAfgAMCbuY53QACXRleHRXaWR0aHNxAH4ADFsbHx10AApmdWxsU2NyZWVuc3EAfgAMrMmjr3QACG5vTGlnaHRzc3EAfgAMS4xntHQAC3NhdmVTdHJpbmdzc3EAfgAMz7W67HQABnNwaGVyZXNxAH4ADAv5x110AANzZXRzcQB+AAxJIhvqdAAKc2F0dXJhdGlvbnNxAH4ADLTCrCt0AARwdXNoc3EAfgAMsASJR3QADHN5bmNocm9uaXplZHNxAH4ADChYex10AAdzY3JlZW5ac3EAfgAMI9Bi1nQACmJlZ2luU2hhcGVzcQB+AAwjgI4HdAAGY2FtZXJhc3EAfgAMgBkUknQACnRleHRBc2NlbnRzcQB+AAz7T+kbdAAJc3Ryb2tlQ2Fwc3EAfgAMAoHNYHQAC3RleHRMZWFkaW5nc3EAfgAMcohTxnQADG1vdXNlQ2xpY2tlZHNxAH4ADMEAxkN0AAt3aW5kb3dDb2xvcnNxAH4ADI1N/3t0AAlydW5Ta2V0Y2hzcQB+AAxd0Na4dAAKc3Ryb2tlSm9pbnNxAH4ADAcq7QB0AAZtb2RlbFpzcQB+AAyrMMVBdAAJbGlzdFBhdGhzc3EAfgAMCxWCCnQAC2xvYWRJbWFnZUlPc3EAfgAM5KC0n3QAEmZyYW1lUmF0ZUxhc3ROYW5vc3NxAH4ADOqc+R50AAdyb3RhdGVac3EAfgAMUxZftXQADSRpc0luc3RhbmNlT2ZzcQB+AAwb0oMXdAANc2tldGNoRGlzcGxheXNxAH4ADDeWHht0ABBkaXJlY3Rpb25hbExpZ2h0c3EAfgAMU5DSD3QABXBhdXNlc3EAfgAMaazH2XQADWRlcXVldWVFdmVudHNzcQB+AAzqV32DdAANbW91c2VSZWxlYXNlZHNxAH4ADD1SVjJ0ABBzdWdnZXN0ZWREZW5zaXR5c3EAfgAMkTaXI3QACWZvY3VzTG9zdHNxAH4ADJ/Vv7p0AAxjcmVhdGVPdXRwdXRzcQB+AAz/sv1VdAAGaGVpZ2h0c3EAfgAM6VReKHQACmZyYW1lTW92ZWRzcQB+AAx918S5dAAMZGVmYXVsdFdpZHRoc3EAfgAMeyDRl3QACHNhdmVQYXRoc3EAfgAMt2mrHHQAC2NyZWF0ZUlucHV0c3EAfgAMTA/0UXQAB2ZvY3VzZWRzcQB+AAyDaIF5dAAMbG9hZEltYWdlVEdBc3EAfgAMp7b0enQADG1ha2VHcmFwaGljc3NxAH4ADDnJalR0AAx1cGRhdGVQaXhlbHNzcQB+AAwR4oGvdAAEdGV4dHNxAH4ADF4X3m50AA5jcmVhdGVHcmFwaGljc3NxAH4ADOHJanJ0AAxvdXRwdXRTdHJlYW1zcQB+AAwsoNpidAAMbGlnaHRGYWxsb2Zmc3EAfgAMmXrBXHQACmV4aXRBY3R1YWxzcQB+AAz80PvudAAObG9hZEpTT05PYmplY3RzcQB+AAwSMzrIdAAJZmluZEluZGV4c3EAfgAMOObkInQAEXNrZXRjaFdpbmRvd0NvbG9yc3EAfgAMMz1uD3QAC2VsbGlwc2VNb2Rlc3EAfgAMzeHPiHQAA2h1ZXNxAH4ADPhqmXl0AAVjb2xvcnNxAH4ADBAZII90AA1saWdodFNwZWN1bGFyc3EAfgAM3FV13HQAC2F0dHJpYkNvbG9yc3EAfgAMdr8/E3QACHRleHRTaXplc3EAfgAMzWDytnQACGJlZ2luUEdMc3EAfgAMjxihgXQABHN0b3BzcQB+AAyZGBm1dAAGY3Vyc29yc3EAfgAM1Z6I/XQACHRyaWFuZ2xlc3EAfgAMN9eIjXQADHN0YXJ0U3VyZmFjZXNxAH4ADKM8oDh0AAptb3VzZU1vdmVkc3EAfgAMPINdmHQACXRleHRBbGlnbnNxAH4ADDQxzG10AAlub3RpZnlBbGxzcQB+AAxG65gldAAJZW5kUmVjb3Jkc3EAfgAMdecuMnQABnNxdWFyZXNxAH4ADFZGO4F0AAVmcmFtZXNxAH4ADBfI/wB0AAlzaGFwZU1vZGVzcQB+AAwlxm3zdAAGbW9kZWxZc3EAfgAMiZw9pXQADmluc2lkZVNldHRpbmdzc3EAfgAMVqTT0HQABWdyZWVuc3EAfgAMbJqW2nQABmVuZFBHTHNxAH4ADMxng0t0AAlwb3N0RXZlbnRzcQB+AAx8lvFedAANZGVmYXVsdEhlaWdodHNxAH4ADE65zXN0AANrZXlzcQB+AAx7L2GXdAAEcXVhZHNxAH4ADNwB/c10AAxpc0luc3RhbmNlT2ZzcQB+AAzC5vd/dAAIZGF0YUZpbGVzcQB+AAy28E6gdAAQc2tldGNoT3V0cHV0UGF0aHNxAH4ADKWF7/50ABB1bnJlZ2lzdGVyTWV0aG9kc3EAfgAMll86cXQADGRpc3BsYXlXaWR0aHNxAH4ADLi9N9l0AAZmaWx0ZXJzcQB+AAxRaEy9dAAHZW1vdXNlWXNxAH4ADJdDUgF0AAtwcmludE1hdHJpeHNxAH4ADAy1RRp0AAhub1Ntb290aHNxAH4ADExpGbR0AAhrZXlFdmVudHNxAH4ADMOHg4h0AAZyb3RhdGVzcQB+AAwfxEORdAALbm9pc2VEZXRhaWxzcQB+AAyN2+9ldAADYXJjc3EAfgAMJjBdx3QACHBvcFN0eWxlc3EAfgAMvpD/PnQAC2xvYWRTdHJpbmdzc3EAfgAMzOHlMXQACXBvcE1hdHJpeHNxAH4ADEJ1mpx0AAxtaWxsaXNPZmZzZXRzcQB+AAzve3yfdAAGbW91c2VYc3EAfgAMO1UDQXQACWVtcHR5QXJnc3NxAH4ADCHx9Ud0AAxhbWJpZW50TGlnaHRzcQB+AAwO2cJzdAAKcGl4ZWxXaWR0aHNxAH4ADBj0FD90AAxza2V0Y2hTbW9vdGhzcQB+AAxlwDf9dAAGbm9UaW50c3EAfgAMOpug2XQAEVJlZ2lzdGVyZWRNZXRob2Rzc3EAfgAMuzVNOXQACmZyYW1lQ291bnRzcQB+AAwQV+ZkdAAEZHJhd3NxAH4ADIFUuZt0AANkaWVzcQB+AAwqPcr5dAAGdGhyZWFkc3EAfgAMrMzDJ3QABjxpbml0PnNxAH4ADPRNgfV0AApyYW5kb21TZWVkc3EAfgAMQY0eEXQADGNyZWF0ZVJlYWRlcnNxAH4ADDeOvOx0AAtwZXJzcGVjdGl2ZXNxAH4ADOF1PTt0AApwb2ludExpZ2h0c3EAfgAMrxK3IHQADnJhbmRvbUdhdXNzaWFuc3EAfgAMlvRY13QADnBlcmxpbl9vY3RhdmVzc3EAfgAMqZ/4qXQADG1vdXNlUHJlc3NlZHNxAH4ADIN08CJ0AAxiZXppZXJEZXRhaWxzcQB+AAz9oddzdAAKcHVzaE1hdHJpeHNxAH4ADHFeDu50AAhleHRlcm5hbHNxAH4ADKcEhWp0AAtrZXlSZWxlYXNlZHNxAH4ADEVzHgJ0AAtwaXhlbEhlaWdodHNxAH4ADHEMKIJ0AAhzcGVjdWxhcnNxAH4ADENzgv50AA9xdWFkcmF0aWNWZXJ0ZXhzcQB+AAw8Hm1SdAAGcmVtb3Zlc3EAfgAMqJeETHQAC3NrZXRjaFdpZHRoc3EAfgAM9ZcnzXQABnBlcmxpbnNxAH4ADBnMJe90AAtiZWdpbkNhbWVyYXNxAH4ADECaEVF0AAhzYXZlRmlsZXNxAH4ADPJM9nR0AApzYXZlU3RyZWFtc3EAfgAMITSRfnQAB2Rtb3VzZVlzcQB+AAxjRymAdAAIbm9DdXJzb3JzcQB+AAzsnY9VdAABZ3NxAH4ADKFjX/t0AAhlbWlzc2l2ZXNxAH4ADLO4flJ0AAxjdXJ2ZVRhbmdlbnRzcQB+AAym31wcdAALc2VsZWN0SW5wdXRzcQB+AAyrBSLXdAAJc2F2ZUJ5dGVzc3EAfgAMrtqyRHQADG1vdXNlRW50ZXJlZHNxAH4ADGJMelN0AA1kaXNwbGF5SGVpZ2h0c3EAfgAMrFP653QABm1pbGxpc3NxAH4ADDe13KZ0AAlnZXRNYXRyaXhzcQB+AAzzHXTedAACPT1zcQB+AAyeA6GbdAAEZmlsbHNxAH4ADF8RebZ0AApvdXRwdXRQYXRoc3EAfgAMvYnwt3QAB2Vtb3VzZVhzcQB+AAxxkpwydAAHZGlzcG9zZXNxAH4ADCVLEuh0AAlub2lzZVNlZWRzcQB+AAzxof8QdAAGdGhpcyQwc3EAfgAMvsLy0nQABWNsb25lc3EAfgAMQWJOcnQAC3Jlc2V0U2hhZGVyc3EAfgAMEz9kYnQAEnNrZXRjaFBpeGVsRGVuc2l0eXNxAH4ADAxSyXR0AAdrZXlDb2Rlc3EAfgAMtH0G4XQAB3Btb3VzZVhzcQB+AAzxVof6dAALY3VydmVWZXJ0ZXhzcQB+AAwKEvpadAAQc2tldGNoRnVsbFNjcmVlbnNxAH4ADFaD1Yh0AARsaW5rc3EAfgAM8YG0j3QAC2dldEdyYXBoaWNzc3EAfgAMpHqI43QADHN0cm9rZVdlaWdodHNxAH4ADK6WKHZ0AAlzZXRNYXRyaXhzcQB+AAwvR4k9dAAOaW50ZXJuYWxSYW5kb21zcQB+AAyFjghDdAAJbG9hZFRhYmxlc3EAfgAMenh+onQAC3Jlc2V0TWF0cml4c3EAfgAMcxwhZHQADGJlZ2luQ29udG91cnNxAH4ADADPpu50AAl0cmFuc2xhdGVzcQB+AAwrvR0SdAAMZnJhbWVSZXNpemVkc3EAfgAM2NqyfHQADHNrZXRjaEhlaWdodHNxAH4ADJWEmy90AApleGl0Q2FsbGVkc3EAfgAMx6Mj8HQADnNrZXRjaFJlbmRlcmVyc3EAfgAM9cdFvnQADG1vdXNlRHJhZ2dlZHNxAH4ADC72cIJ0AARoaW50c3EAfgAMJlZp4nQACWxvYWRCeXRlc3NxAH4ADCteviJ0AAtvcmllbnRhdGlvbnNxAH4ADI/1CRV0AAtpbml0U3VyZmFjZXNxAH4ADDbP6t10AAtyZWdpc3Rlck1hcHNxAH4ADM0VJc10AAt0ZXh0dXJlTW9kZXNxAH4ADKIKEAR0AARleGl0c3EAfgAMeC7rnXQADWhhbmRsZU1ldGhvZHNzcQB+AAx/GRBFdAALYXBwbHlNYXRyaXhzcQB+AAyMYEkDdAAIcGFyc2VYTUxzcQB+AAwde3dGdAAJbm9UZXh0dXJlc3EAfgAMJV822HQABGNvcHlzcQB+AAxyjpWbdAAMcGl4ZWxEZW5zaXR5c3EAfgAMOLTS2nQACmJyaWdodG5lc3NzcQB+AAwUEk5wdAAGbW91c2VZc3EAfgAM49WU1XQABWZsdXNoc3EAfgAMbuTKBHQABmVuZFJhd3NxAH4ADITVrc90AAh0b1N0cmluZ3NxAH4ADKw+Q/10AA5hdHRyaWJQb3NpdGlvbnNxAH4ADH3cEi10AARhcmdzc3EAfgAMIbRxKHQAB2FtYmllbnRzcQB+AAxSJHUgdAAIZW5kU2hhcGVzcQB+AAw49derdAAGc2hlYXJZc3EAfgAMUDRn33QAA2JveHNxAH4ADLa4Q0h0AAVzaGFwZXNxAH4ADAkUsLp0AAZzaGFkZXJzcQB+AAwpsAFwdAACIT1zcQB+AAzkZhLudAAKbG9hZFBpeGVsc3NxAH4ADJ5MvNF0AApmaXJzdE1vdXNlc3EAfgAMfR7kVnQABmJlemllcnNxAH4ADIWTshp0AAtwcmludENhbWVyYXNxAH4ADJpA2EV0AAdyb3RhdGVYc3EAfgAMyh6ylHQAA2dldHNxAH4ADFW/GpV0AAZwaXhlbHNzcQB+AAylxzshdAAScGVybGluX2FtcF9mYWxsb2Zmc3EAfgAMGTajmHQAB2ZydXN0dW1zcQB+AAySTZ59dAAEZWRnZXNxAH4ADAS/9g90AAhnZXRDbGFzc3NxAH4ADKyMdEN0AAtmb2N1c0dhaW5lZHNxAH4ADGJQmYZ0AAdvYmplY3Rzc3EAfgAMPCfWEHQAC2luc2VydEZyYW1lc3EAfgAMGxHG2XQACHJlbmRlcmVyc3EAfgAMZI+l8nQACHRleHRNb2Rlc3EAfgAMEO5a83QABGNsaXBzcQB+AAxiXGbcdAAMc3BoZXJlRGV0YWlsc3EAfgAMfWW5qXQADmRpc3BsYXlEZXZpY2Vzc3EAfgAMBiqMjHQACnNrZXRjaEZpbGVzcQB+AAxYNQPSdAAKZXZlbnRRdWV1ZXNxAH4ADD1Ms+x0AA9wZXJsaW5fY29zVGFibGVzcQB+AAze4p1odAAFc3RhcnRzcQB+AAzO99nadAAHbG9hZFhNTHNxAH4ADO0Bk1p0AAdkbW91c2VYc3EAfgAMqm38cHQABHNhdmVzcQB+AAwAw4LkdAAJc2F2ZUZyYW1lc3EAfgAMRexlp3QADHJlcXVlc3RJbWFnZXNxAH4ADKZMwxF0AAJuZXNxAH4ADMf1XKt0AA5kaXNwbGF5RGVuc2l0eXNxAH4ADL9BPup0AA5jdXJ2ZVRpZ2h0bmVzc3NxAH4ADBcsJL50AAlwZXJsaW5fUElzcQB+AAyFhQAfdAALYmV6aWVyUG9pbnRzcQB+AAwEQEAgdAAJc3BvdExpZ2h0c3EAfgAMXihfHHQAA2FkZHNxAH4ADDCIQaN0AAdzY3JlZW5Yc3EAfgAMRSsSB3QABXdpZHRoc3EAfgAM070aV3QACnNrZXRjaFBhdGhzcQB+AAxMqAA/dAAPcGFyc2VKU09OT2JqZWN0c3EAfgAMs+hapnQADWxvYWRKU09OQXJyYXlzcQB+AAxfS353dAAIbm9TdHJva2VzcQB+AAzy/i6vdAAHbG9vcGluZ3NxAH4ADNBQ/RR0AAlwdXNoU3R5bGVzcQB+AAxW1a9sdAAKa2V5UHJlc3NlZHNxAH4ADBeKL390AApsb2FkU2hhZGVyc3EAfgAMPpCOJ3QAB3Btb3VzZVlzcQB+AAzTEhpzdAAHdGV4dHVyZXNxAH4ADAFjZ4t0AAZhdHRyaWJzcQB+AAzW9nvRdAAIcmVjdE1vZGVzcQB+AAxWurzTdAAJc2hpbmluZXNzc3EAfgAM9ZmVJ3QAAmVxc3EAfgAMwLVFLHQADWJlemllclRhbmdlbnRzcQB+AAy685a0dAAJbG9hZFNoYXBlc3EAfgAMXRJHh3QACHNldHRpbmdzc3EAfgAMJfw2i3QAEHJlcXVlc3RJbWFnZVBvb2xzcQB+AAzDMKZrdAALYmVnaW5SZWNvcmRzcQB+AAyx2acGdAAHZWxsaXBzZXNxAH4ADA+qRpp0ABBoYW5kbGVNb3VzZUV2ZW50c3EAfgAMbHPqAHQAC21vdXNlQnV0dG9uc3EAfgAM/j/adnQACWxlcnBDb2xvcnNxAH4ADFRxMpt0AAlzYXZlVGFibGVzcQB+AAyjHMrrdAAFc2V0dXBzcQB+AAwyeRLvdAADcmVkc3EAfgAMXcpYa3QAAiMjc3EAfgAMKeZmUnQABWJsZW5kc3EAfgAMKQlkMXQADGF0dHJpYk5vcm1hbHNxAH4ADLX1Q1l0AAhmaW5hbGl6ZXNxAH4ADHAfSgt0AA1zYXZlSlNPTkFycmF5c3EAfgAMXew33HQAB3NldFNpemVzcQB+AAxbTgAfdAAIaGFzaENvZGVzcQB+AAwWaYmtdAAIcmVjb3JkZXJzcQB+AAzS+UvTdAAHZGlzcGxheXNxAH4ADOHj/m90AAdzYXZlWE1Mc3EAfgAMFZCwsXQABmhhbmRsZXNxAH4ADLwxg/p0AA5oYW5kbGVLZXlFdmVudHNxAH4ADDaUG7F0AAZzaGVhclhzcQB+AAy3FSPqdAAJY29sb3JNb2Rlc3EAfgAMM+J75HQADmhhbmRsZVNldHRpbmdzc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4C5XhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFmJiZ2FtZS5nYW1lLkdhbWVFbmdpbmV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0AA9zY2FsYS50cmFuc2llbnR0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4C/3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgLlTAAJaW5oZXJpdGVkcQB+AuVMAAdwYXJlbnRzcQB+AuV4cQB+AwRzcQB+Av91cQB+AuAAAAAAc3EAfgL/dXEAfgLgAAAAAHNxAH4C/3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4DA3QAB1BBcHBsZXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AwNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQACnByb2Nlc3NpbmdzcQB+Axx0AARjb3Jlc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+Ax1zcQB+AxB0AApQQ29uc3RhbnRzcQB+AxZzcQB+AxB0AAZPYmplY3RzcQB+AxRzcQB+Axd1cQB+AxoAAAADc3EAfgMcdAAEamF2YXNxAH4DHHQABGxhbmdxAH4DI3NxAH4DEHQAA0FueXNxAH4DFHNxAH4DF3VxAH4DGgAAAAJzcQB+Axx0AAVzY2FsYXEAfgMjdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGYmJnYW1lc3EAfgM4dAALYmJnYW1lLmdhbWVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAXVBqNwodXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAL0Q6XGdpdGh1YlxCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUavWWTzbD0Ct5DAu+FpzH7avUKxI=
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw/A/gcwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA0c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwlyVPmXQABWFscGhhc3EAfgAMv0KTpXQABlllbGxvd3NxAH4ADFRihXl0AAZub3RpZnlzcQB+AAwmkJP+dAAHdW5hcHBseXNxAH4ADFQY9f50AARHcmF5c3EAfgAMbTMze3QABHdhaXRzcQB+AAxUG7+cdAAOY29weSRkZWZhdWx0JDJzcQB+AAxn0QN/dAANJGFzSW5zdGFuY2VPZnNxAH4ADGtwvOt0AAlMaWdodEJsdWVzcQB+AAwkdjwDdAAMcHJvZHVjdEFyaXR5c3EAfgAM79LcM3QABmVxdWFsc3NxAH4ADMcL9Nx0AARibHVlc3EAfgAMLEQZaXQADGFzSW5zdGFuY2VPZnNxAH4ADKO5DC90AAxzeW5jaHJvbml6ZWRzcQB+AAyYt+b/dAADUmVkc3EAfgAMMYZSCHQABEJsdWVzcQB+AAzvaOOCdAANJGlzSW5zdGFuY2VPZnNxAH4ADIjJ0kl0AAVXaGl0ZXNxAH4ADPHxA7h0AAlEYXJrR3JlZW5zcQB+AAwKqUDrdAAIY2FuRXF1YWxzcQB+AAzLuswhdAAFQmxhY2tzcQB+AAxo3E1HdAAOY29weSRkZWZhdWx0JDRzcQB+AAxzYmDwdAANcHJvZHVjdFByZWZpeHNxAH4ADEz9YGN0AAlub3RpZnlBbGxzcQB+AAx/TdbhdAAFZ3JlZW5zcQB+AAzl8W0SdAAMaXNJbnN0YW5jZU9mc3EAfgAM21LTPXQABjxpbml0PnNxAH4ADJJHOnF0AAVHcmVlbnNxAH4ADDVEiWx0AAZQdXJwbGVzcQB+AAykj7lpdAAFYXBwbHlzcQB+AAy7FeJLdAACPT1zcQB+AAwXvQGidAAFY2xvbmVzcQB+AAxxJGYodAAGJGluaXQkc3EAfgAMtZaEEXQABk9yYW5nZXNxAH4ADF/yOlt0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADBS84OB0AARjb3B5c3EAfgAMy0ogKXQACHRvU3RyaW5nc3EAfgAMGoDcz3QAAiE9c3EAfgAMTuJudnQACGdldENsYXNzc3EAfgAMqCzuUnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMRd5Wx3QAEnByb2R1Y3RFbGVtZW50TmFtZXNxAH4ADGyu4XF0AAVDb2xvcnNxAH4ADI2IBYd0AAJuZXNxAH4ADBvXT2l0AAlMYXduR3JlZW5zcQB+AAzCyUaEdAACZXFzcQB+AAziwGtJdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMob/9RHQAA3JlZHNxAH4ADKk54M10AAIjI3NxAH4ADGi5G1d0AAhmaW5hbGl6ZXNxAH4ADI5UrkN0AA5wcm9kdWN0RWxlbWVudHNxAH4ADPncDC90AAhoYXNoQ29kZXNxAH4ADL4KQbB0ABNwcm9kdWN0RWxlbWVudE5hbWVzc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Af3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGmJiZ2FtZS5nYW1lLmdyYXBoaWNzLkNvbG9ydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Af0wACWluaGVyaXRlZHEAfgB/TAAHcGFyZW50c3EAfgB/eHEAfgCdc3EAfgCYdXEAfgB6AAAAAHNxAH4AmHVxAH4AegAAAABzcQB+AJh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJx0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ALV0AAJpb3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgC2c3EAfgCpdAAHUHJvZHVjdHNxAH4ArXNxAH4AsHVxAH4AswAAAAJzcQB+ALV0AAVzY2FsYXEAfgC8c3EAfgCpdAAGRXF1YWxzcQB+AL9zcQB+AKl0AAZPYmplY3RzcQB+AK1zcQB+ALB1cQB+ALMAAAADc3EAfgC1cQB+ALhzcQB+ALV0AARsYW5ncQB+ALxzcQB+AKl0AANBbnlxAH4Av3NxAH4AfHEAfgCJdXEAfgCKAAAAAHNxAH4AjAB0ABpiYmdhbWUuZ2FtZS5ncmFwaGljcy5Db2xvcnVxAH4AjwAAAAB+cQB+AJF0AAZNb2R1bGV1cQB+AJUAAAABdAAMc2NhbGEubmF0aXZlc3EAfgCYcQB+AJ5zcQB+AJhzcQB+AKBzcQB+AJh1cQB+AHoAAAAAc3EAfgCYdXEAfgB6AAAAAHNxAH4AmHVxAH4ApwAAAANzcQB+AKlxAH4ArHNxAH4ArXNxAH4AsHVxAH4AswAAAANzcQB+ALVxAH4AuHNxAH4AtXQAAmlvcQB+ALxzcQB+AKlxAH4Ax3NxAH4ArXNxAH4AsHVxAH4AswAAAANzcQB+ALVxAH4AuHNxAH4AtXEAfgDNcQB+ALxzcQB+AKlxAH4Az3NxAH4ArXNxAH4AsHVxAH4AswAAAAJzcQB+ALVxAH4Aw3EAfgC8dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGYmJnYW1lc3EAfgD2dAALYmJnYW1lLmdhbWVzcQB+APZ0ABRiYmdhbWUuZ2FtZS5ncmFwaGljc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGo3Ch1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAvRDpcZ2l0aHViXEJyaWNrQnJlYWtlclxidWlsZFxjbGFzc2VzXHNjYWxhXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRybTjIhxuSialW0iLr2gV3pAMjcw==
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwLJ3D8QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA6c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwiAOjfXQABm5vdGlmeXNxAH4ADPyLVg50AAF4c3EAfgAMZj4hd3QABEJhbGxzcQB+AAwnunCRdAAEd2FpdHNxAH4ADP0OjaV0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADFyn5XB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMNVcufHQAEmJhbGxIaXRCb3R0b21Ccmlja3NxAH4ADONfoXd0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADH7+E3N0AAxwcm9kdWN0QXJpdHlzcQB+AAwEhoIndAAGZXF1YWxzc3EAfgAMR4RrdXQAAXlzcQB+AAwoHu6fdAAPYmFsbEhpdExlZnRXYWxsc3EAfgAMeBsPe3QAEmJhbGxIaXRQYWRkbGVSaWdodHNxAH4ADAwrPVl0AAxhc0luc3RhbmNlT2ZzcQB+AAyYZ4QJdAAJVmVsb2NpdHlZc3EAfgAMoZmBkHQADHN5bmNocm9uaXplZHNxAH4ADNnjaYx0AAlHcmlkV2lkdGhzcQB+AAyJNNbqdAANJGlzSW5zdGFuY2VPZnNxAH4ADKDBR2Z0ABFiYWxsSGl0UGFkZGxlTGVmdHNxAH4ADCndwWF0AAhjYW5FcXVhbHNxAH4ADMRO45J0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADEOmVSV0AA1wcm9kdWN0UHJlZml4c3EAfgAMUc5b6HQABnJhZGl1c3NxAH4ADELRPfV0AAlub3RpZnlBbGxzcQB+AAxjx6k8dAAMaXNJbnN0YW5jZU9mc3EAfgAM6Q9q8XQABmdvTGVmdHNxAH4ADA/V7+d0AAY8aW5pdD5zcQB+AAxrMIZ0dAAQYmFsbEhpdExlZnRCcmlja3NxAH4ADLH0+k50AAdnb1JpZ2h0c3EAfgAM6cLSdHQACVZlbG9jaXR5WHNxAH4ADM6S2v10AAI9PXNxAH4ADFOOGFZ0AA1iYWxsSGl0Qm90dG9tc3EAfgAMZbUgHHQABWNsb25lc3EAfgAMjkj1bXQABiRpbml0JHNxAH4ADLWhDRh0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADE3JXIR0AARjb3B5c3EAfgAMpCQTOnQABXJlc2V0c3EAfgAMx++ro3QACHRvU3RyaW5nc3EAfgAMXnm1aXQAAiE9c3EAfgAMxLXmKXQACGdldENsYXNzc3EAfgAMh3WDjXQAEWJhbGxIaXRSaWdodEJyaWNrc3EAfgAMxHrNYnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMXNyjCXQABnVwZGF0ZXNxAH4ADCCrCXx0ABJwcm9kdWN0RWxlbWVudE5hbWVzcQB+AAzjjWk6dAAQYmFsbEhpdFJpZ2h0V2FsbHNxAH4ADLcbAeF0AApHcmlkSGVpZ2h0c3EAfgAMjWwKunQADmNvcHkkZGVmYXVsdCQ2c3EAfgAMelYuzHQAD2JhbGxIaXRUb3BCcmlja3NxAH4ADJzhQcl0AAJuZXNxAH4ADATLZY10AAJlcXNxAH4ADMrFjtF0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAxzSSCBdAAOYmFsbEhpdFRvcFdhbGxzcQB+AAz3WNREdAAFZmxpcFlzcQB+AAyfz4YqdAACIyNzcQB+AAy2+0kSdAAIZmluYWxpemVzcQB+AAwZrXzBdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAz9VM8JdAAIaGFzaENvZGVzcQB+AAzme/Q3dAATcHJvZHVjdEVsZW1lbnROYW1lc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AIt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABFiYmdhbWUubG9naWMuQmFsbHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCkc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AItMAAlpbmhlcml0ZWRxAH4Ai0wAB3BhcmVudHNxAH4Ai3hxAH4AqXNxAH4ApHVxAH4AhgAAAABzcQB+AKR1cQB+AIYAAAAAc3EAfgCkdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAVzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCodAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCoc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDBdAACaW9zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AwnNxAH4AtXQAB1Byb2R1Y3RzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBdAAFc2NhbGFxAH4AyHNxAH4AtXQABkVxdWFsc3EAfgDLc3EAfgC1dAAGT2JqZWN0c3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDEc3EAfgDBdAAEbGFuZ3EAfgDIc3EAfgC1dAADQW55cQB+AMt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAxiYmdhbWUubG9naWNzcQB+AN50AAZiYmdhbWVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAXVBqNwodXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAL0Q6XGdpdGh1YlxCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU8sPv1Hfr58K7sgYKwcrOPxbeUF4=
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw+fLgpAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAvc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpJSXSXQABm5vdGlmeXNxAH4ADP67SzV0AAF4c3EAfgAMfERSk3QABHdhaXRzcQB+AAw1fxZZdAAHaXNBbGl2ZXNxAH4ADC5dfSN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADJmC4zt0AA0kYXNJbnN0YW5jZU9mc3EAfgAMC2s3LnQADmNvcHkkZGVmYXVsdCQ1c3EAfgAMKsJxwHQADHByb2R1Y3RBcml0eXNxAH4ADNyTWpp0AAZlcXVhbHNzcQB+AAwglaK6dAABeXNxAH4ADKFm4hl0AAxhc0luc3RhbmNlT2ZzcQB+AAy3NFOcdAAKQnJpY2tXaWR0aHNxAH4ADBuLYol0AAxzeW5jaHJvbml6ZWRzcQB+AAxT6P/ndAADUmVkc3EAfgAMKRmiqHQABEJsdWVzcQB+AAzfRhiOdAANJGlzSW5zdGFuY2VPZnNxAH4ADHQ18xB0AA5jb3B5JGRlZmF1bHQkOHNxAH4ADBIWcmJ0AAVCcmlja3NxAH4ADJAOhmZ0AAhjYW5FcXVhbHNxAH4ADDgCPgl0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADKwEdZp0AAtCcmlja0hlaWdodHNxAH4ADLskI1B0AA1wcm9kdWN0UHJlZml4c3EAfgAMkiVBxHQACW5vdGlmeUFsbHNxAH4ADCv7AOV0AAxpc0luc3RhbmNlT2ZzcQB+AAzRVdEsdAAGPGluaXQ+c3EAfgAMsYyxe3QABUdyZWVuc3EAfgAM135Jl3QAAj09c3EAfgAMkylsAnQABWNsb25lc3EAfgAMkUJaAnQADmNvcHkkZGVmYXVsdCQ3c3EAfgAM7v5N2XQABiRpbml0JHNxAH4ADI3D3j50AA5jb3B5JGRlZmF1bHQkM3NxAH4ADNlYxiJ0AARjb3B5c3EAfgAM7BF8cXQACHRvU3RyaW5nc3EAfgAMUj4YCnQAAiE9c3EAfgAMuxB/HXQACGdldENsYXNzc3EAfgAMp8viT3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMNY3xwXQAEnByb2R1Y3RFbGVtZW50TmFtZXNxAH4ADNF2pCt0AA5jb3B5JGRlZmF1bHQkNnNxAH4ADHIP3wx0AAJuZXNxAH4ADOeWqbd0AAZnb3RIaXRzcQB+AAwqUFLUdAACZXFzcQB+AAwkfyBSdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMciRYLHQAAiMjc3EAfgAMAlJKeHQACGZpbmFsaXplc3EAfgAMQkX3anQADnByb2R1Y3RFbGVtZW50c3EAfgAMDeuMiXQACGhhc2hDb2Rlc3EAfgAMv9i1ZHQAE3Byb2R1Y3RFbGVtZW50TmFtZXNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB1eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAASYmJnYW1lLmxvZ2ljLkJyaWNrdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AI5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AdUwACWluaGVyaXRlZHEAfgB1TAAHcGFyZW50c3EAfgB1eHEAfgCTc3EAfgCOdXEAfgBwAAAAAHNxAH4AjnVxAH4AcAAAAABzcQB+AI51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJJ0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AKt0AAJpb3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCsc3EAfgCfdAAHUHJvZHVjdHNxAH4Ao3NxAH4ApnVxAH4AqQAAAAJzcQB+AKt0AAVzY2FsYXEAfgCyc3EAfgCfdAAGRXF1YWxzcQB+ALVzcQB+AJ90AAZPYmplY3RzcQB+AKNzcQB+AKZ1cQB+AKkAAAADc3EAfgCrcQB+AK5zcQB+AKt0AARsYW5ncQB+ALJzcQB+AJ90AANBbnlxAH4AtXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADGJiZ2FtZS5sb2dpY3NxAH4AyHQABmJiZ2FtZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGo3Ch1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAvRDpcZ2l0aHViXEJyaWNrQnJlYWtlclxidWlsZFxjbGFzc2VzXHNjYWxhXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTXcuSrGOKuoQcyyS5YxXP53D/DEA==
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw111n9gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAArc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw7yCB+HQABm5vdGlmeXNxAH4ADKYtvQJ0AAF4c3EAfgAM/LRRunQABHdhaXRzcQB+AAwpAVHYdAAOY29weSRkZWZhdWx0JDJzcQB+AAw4TSnidAANJGFzSW5zdGFuY2VPZnNxAH4ADLof3Mp0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADL7KFix0AAxwcm9kdWN0QXJpdHlzcQB+AAx55WbadAAGZXF1YWxzc3EAfgAM92kTdHQAAXlzcQB+AAxQPdkwdAAMYXNJbnN0YW5jZU9mc3EAfgAM4EoiLnQADHN5bmNocm9uaXplZHNxAH4ADKcfFbl0AAlHcmlkV2lkdGhzcQB+AAxzrTTCdAANJGlzSW5zdGFuY2VPZnNxAH4ADCnWKd10AAxQYWRkbGVIZWlnaHRzcQB+AAy3adcFdAAIY2FuRXF1YWxzcQB+AAz4fBeldAAOY29weSRkZWZhdWx0JDRzcQB+AAxjaUbOdAANcHJvZHVjdFByZWZpeHNxAH4ADGGkvwh0AAlub3RpZnlBbGxzcQB+AAxDO3rbdAAMaXNJbnN0YW5jZU9mc3EAfgAMbfXn3nQABjxpbml0PnNxAH4ADDmTCnd0AAI9PXNxAH4ADHutM6p0AAVjbG9uZXNxAH4ADAjbKjd0AAZQYWRkbGVzcQB+AAy/HLb3dAAGJGluaXQkc3EAfgAM9PG4xHQADmNvcHkkZGVmYXVsdCQzc3EAfgAM567mG3QABGNvcHlzcQB+AAz5af9NdAAIdG9TdHJpbmdzcQB+AAxCZNMwdAACIT1zcQB+AAz8x5ZNdAAIZ2V0Q2xhc3NzcQB+AAwIq1EBdAAOY29weSRkZWZhdWx0JDFzcQB+AAwIwYtgdAAGdXBkYXRlc3EAfgAMKn2tCnQAEnByb2R1Y3RFbGVtZW50TmFtZXNxAH4ADN4IYsB0AApHcmlkSGVpZ2h0c3EAfgAMA1pdlHQADmNvcHkkZGVmYXVsdCQ2c3EAfgAML/fIXHQAAm5lc3EAfgAMcawO0HQAAmVxc3EAfgAMjPchfHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADPBtdkB0AAIjI3NxAH4ADE5oSVF0AAhmaW5hbGl6ZXNxAH4ADKP0+iB0AA5wcm9kdWN0RWxlbWVudHNxAH4ADMyjF490AAhoYXNoQ29kZXNxAH4ADI0Qchd0ABNwcm9kdWN0RWxlbWVudE5hbWVzc3EAfgAMB3qgnHQAC1BhZGRsZVdpZHRoc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAE2JiZ2FtZS5sb2dpYy5QYWRkbGV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AhnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBtTAAJaW5oZXJpdGVkcQB+AG1MAAdwYXJlbnRzcQB+AG14cQB+AItzcQB+AIZ1cQB+AGgAAAAAc3EAfgCGdXEAfgBoAAAAAHNxAH4AhnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAFc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AinQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AinNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ao3QAAmlvc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKRzcQB+AJd0AAdQcm9kdWN0c3EAfgCbc3EAfgCedXEAfgChAAAAAnNxAH4Ao3QABXNjYWxhcQB+AKpzcQB+AJd0AAZFcXVhbHNxAH4ArXNxAH4Al3QABk9iamVjdHNxAH4Am3NxAH4AnnVxAH4AoQAAAANzcQB+AKNxAH4ApnNxAH4Ao3QABGxhbmdxAH4AqnNxAH4Al3QAA0FueXEAfgCtdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAMYmJnYW1lLmxvZ2ljc3EAfgDAdAAGYmJnYW1lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAF1QajcKHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AC9EOlxnaXRodWJcQnJpY2tCcmVha2VyXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFH3IT+ZHceKAYfpJUNckCvUt7c25
+external apis:
+0 items
+source infos:
+6 items
+D:\github\BrickBreaker\src\bbgame\game\BrickBreaker.scala -> 
+AAAAAAAAAAA=
+D:\github\BrickBreaker\src\bbgame\game\GameEngine.scala -> 
+AAAAAAAAAAA=
+D:\github\BrickBreaker\src\bbgame\game\graphics\Color.scala -> 
+AAAAAAAAAAA=
+D:\github\BrickBreaker\src\bbgame\logic\Ball.scala -> 
+AAAAAAAAAAA=
+D:\github\BrickBreaker\src\bbgame\logic\Brick.scala -> 
+AAAAAAAAAAA=
+D:\github\BrickBreaker\src\bbgame\logic\Paddle.scala -> 
+AAAAAAAAAAA=
+compilations:
+69 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdT4PnFt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUChyhd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCjDGl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCjFMF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCjcxB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCj4nB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCkdJt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCku4V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCnRX91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCoH1F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCowGB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCoyPB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCo/e51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCrUYd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCsRfh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCsuiF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCvLl51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCwx+x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUCyLJJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC1aS11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC4ird1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC52rl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC6SG11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC6kk91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC6mtp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC66th1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC7U4x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC73sd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC9FGp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUC9rDR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUET7Z11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUEYKl11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFKS8d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFLg9l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFMFpx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFM4gN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFNelB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFNgqx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFmb+t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+39 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFwmgt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+40 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFyth51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUFzAXN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUF0Pfl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+43 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUF2ChZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+44 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUF20gZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+45 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUF6le91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUF+4111cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGGVKN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGHoQV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGIAbN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGK/791cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGLTm51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGNN7N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGNefl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+54 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGRgI11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+55 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGR8Xt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+56 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGSpMZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+57 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGUdu91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+58 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGUf611cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+59 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGYcGJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+60 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGY/lJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+61 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGZbKl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+62 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGZpX91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+63 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGZ4hZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+64 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGdXoN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+65 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGgPXN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+66 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGhcLV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+67 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGh4Zt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAiUM6XFVzZXJzXGtoYW5oXE9uZURyaXZlXEJTYyBDb21wdXRlciBTY2llbmNlXDJuZCB5ZWFyXFAxXE9iamVjdC1PcmllbnRlZCBhbmQgRnVuY3Rpb25hbCBwcm9ncmFtbWluZ1xCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
+68 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABdUGo3Ch1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XGdpdGh1YlxCcmlja0JyZWFrZXJcYnVpbGRcY2xhc3Nlc1xzY2FsYVxtYWludAABLw==
