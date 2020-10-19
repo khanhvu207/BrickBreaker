@@ -1,5 +1,9 @@
 ## Brick breaker with Rainbow ball!
 
+A simple Brick break game using Scala and Processing.
+
+![demo]()
+
 Run the game
 
 * On Windows, open the Terminal inside this project's folder:
