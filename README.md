@@ -1,13 +1,13 @@
 ## Brick breaker with Rainbow ball!
 
-Run the game 
+Run the game
 
-* On Windows
+* On Windows, open the Terminal inside this project's folder:
 ```
-> gradlew run
+gradlew run
 ```
 
-* On Linux
+* On Linux, same
 ```
-$ gradle run
+gradle run
 ```
