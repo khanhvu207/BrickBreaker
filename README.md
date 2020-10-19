@@ -2,7 +2,7 @@
 
 A simple Brick break game using Scala and Processing.
 
-![demo]()
+![demo](https://github.com/khanhvu207/BrickBreaker/blob/main/assets/demo.gif)
 
 Run the game
 
