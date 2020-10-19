@@ -17,5 +17,5 @@ gradlew run
 
 * On Linux, same
 ```
-gradle run
+./gradlew run
 ```
