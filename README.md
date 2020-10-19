@@ -2,9 +2,11 @@
 
 A simple Brick break game using Scala and Processing.
 
-![demo](https://github.com/khanhvu207/BrickBreaker/blob/main/assets/demo.gif)
+![demo](https://github.com/khanhvu207/BrickBreaker/blob/main/assets/demo.gif)  
 
-Run the game
+[Project on Github](https://github.com/khanhvu207/BrickBreaker)
+
+### Run the game
 
 * On Windows, open the Terminal inside this project's folder:
 ```
